@@ -1,0 +1,14 @@
+# 첫째 줄에 시험 점수가 주어진다. 시험 점수는 0보다 크거나 같고, 100보다 작거나 같은 자연수이다.
+
+a = int(input())
+
+if a >= 90:
+    print("A")
+elif a >= 80:
+    print("B")
+elif a >= 70:
+    print("C")
+elif a >= 60:
+    print("D")
+else:
+    print("F")
